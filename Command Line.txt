@@ -1,0 +1,18 @@
+-to create a Git repository we use git init and its only require only once by project
+- staging -> git add <file name>
+- git commit
+- git status -> to see what is changed and what is on stage 
+- git commit -m "" -> to add commit with message
+- git log -> to see all commits
+- git checkout <id> -> to move between commits
+- git checkout master -> to back to the origin code
+- git revert -> to undo the last changes in the commit with id i put we do
+- git reset --hard <id> -> to remove the commit --- the id we put that we want to back to.. 
+- .gitignore -> to ignore files i don't to commit them
+- git add . -> stage all files
+---------------------------------------
+- git branch <name> -> to make a new branch with the last commit
+- git merge <name> -> to put the work in the other branches in the master branch
+- git branch -> to see all of the branches
+- git checkout <branch name> -> to move to the branch
+- git branch -D <name> -> to delete the branch
